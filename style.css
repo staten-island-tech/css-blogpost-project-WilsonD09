@@ -1,0 +1,12 @@
+.first{
+    font-family: 'Croc Font';
+    margin: auto;
+    text-align: center;
+    background-color: blue;
+    width: 1000px;
+    height: fit-content;
+}
+@font-face {
+    font-family: 'Croc Font'; /*a name to be used later*/
+    src: url('/font/proximanova_regular.ttf'); /*URL to font*/
+}
