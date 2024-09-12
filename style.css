@@ -1,12 +1,29 @@
-.first{
-    font-family: 'Croc Font';
+.titlebox{
+    padding: 30px;
     margin: auto;
+    border: 3px solid rgb(0,0,0);
     text-align: center;
-    background-color: blue;
-    width: 1000px;
-    height: fit-content;
+    width: 750px;
+    height: 125px;
+    background-color:rgb(255, 255, 255) ;
 }
-@font-face {
-    font-family: 'Croc Font'; /*a name to be used later*/
-    src: url('/font/proximanova_regular.ttf'); /*URL to font*/
+body{
+    font-family: "Figtree", sans-serif;
+    background-color: rgb(192,192,192);
+}
+.box{
+    margin: 20px auto;
+    text-align: center;
+    background-color:rgb(255, 255, 255) ;
+    border: 3px solid rgb(0, 0, 0);
+    width: 750px;
+    height: fit-content;
+    padding: 30px;
+}
+
+.figtree{
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
